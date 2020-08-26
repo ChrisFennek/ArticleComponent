@@ -108,7 +108,25 @@ p {
   justify-content: space-between;
   padding: 0 32px;
   align-items: center;
+}
 
+.share-options {
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.share-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.hide {
+  display: none;
 }
 
 #share {

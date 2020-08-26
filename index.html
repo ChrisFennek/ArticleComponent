@@ -36,16 +36,21 @@
       <img onclick="menuClick()" id=sharePic src="images/icon-share.svg" alt="Share">
       </p>
     </div>
-    <div id="overlay" class="overlay-content share-menu-on">
-      <p id="share">SHARE</p>
-      <img src="images/icon-facebook.svg" alt="">
-      <img src="images/icon-twitter.svg" alt="">
-      <img src="images/icon-pinterest.svg" alt="">
+    <div id="overlay" class="share-menu-on hide">
+      <div class="share-options">
+        <p id="share">SHARE</p>
+        <img src="images/icon-facebook.svg" alt="">
+        <img src="images/icon-twitter.svg" alt="">
+        <img src="images/icon-pinterest.svg" alt="">
+      </div>
+      <div class="share-btn">
+        <img onclick="menuClick()" id=sharePic src="images/icon-share.svg" alt="Share">
+      </div>
     </div>
   </div>
   <script>
     function menuClick() {
-      document.getElementById("overlay").classList.toggle("share-menu-on");
+      document.getElementById("overlay").classList.toggle("hide");
     }
   </script>
 </body>

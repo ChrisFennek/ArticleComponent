@@ -67,8 +67,8 @@ p {
 #infos {
   display: flex;
   bottom: 0;
-  width: 100%;
-  margin: 15px 32px;
+  width: 370px;
+  margin: 15px 0px 15px 32px;
 
 }
 
@@ -88,41 +88,37 @@ p {
   margin: auto auto auto 10px;
 }
 
-#sharePic {
+#share-pic {
   background-color: hsl(210, 46%, 95%);
   border-radius: 50%;
   height: 35px;
   width: 35px;
   object-fit: scale-down;
   cursor: pointer;
+  margin-left: 70px;
+}
+
+#share-pic-black {
+  background-color: hsl(210, 46%, 95%);
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  object-fit: scale-down;
+  cursor: pointer;
+  margin-left: 70px;
 }
 
 .share-menu-on {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   position: absolute;
   bottom: 0;
   width: 370px;
-  height: 70px;
+  height: 76px;
   background: hsl(217, 19%, 35%);
   border-radius: 0px 0px 10px 10px;
-  justify-content: space-between;
   padding: 0 32px;
-  align-items: center;
-}
-
-.share-options {
-  display: flex;
-  width: auto;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.share-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  position: relative;
 }
 
 .hide {
